@@ -6,16 +6,16 @@ def calculadora():
 
     if op == '+':
         r = n1 + n2
-        print("\nA soma entre {} e {} é igual a: {}.".format(n1, n2, r))
+        print(f"\nA soma entre {n1} e {n2} é igual a: {r:.2f}.")
     elif op == '-':
         r = n1 - n2
-        print("\nA subtração entre {} e {} é igual a: {}.".format(n1, n2, r))
+        print(f"\nA subtração entre {n1} e {n2} é igual a: {r:.2f}.")
     elif op == '/':
         r = n1 / n2
-        print("\nA divisão entre {} e {} é igual a: {}.".format(n1, n2, r))
+        print(f"\nA divisão entre {n1} e {n2} é igual a: {r:.2f}.")
     elif op == 'x':
         r = n1 * n2
-        print("\nA multiplicação entre {} e {} é igual a: {}.".format(n1, n2, r))
+        print(f"\nA multiplicação entre {n1} e {n2} é igual a: {r:.2f}.")
     else:
         print("\nOperação inválida.")
 
